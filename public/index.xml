@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 01 Dec 2015 17:18:57 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>venue</title>
+      <link>http://localhost:1313/venue/</link>
+      <pubDate>Tue, 01 Dec 2015 17:18:57 +0000</pubDate>
+      
+      <guid>http://localhost:1313/venue/</guid>
+      <description>&lt;p&gt;The pub&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>speak</title>
+      <link>http://localhost:1313/speak/</link>
+      <pubDate>Tue, 01 Dec 2015 17:18:38 +0000</pubDate>
+      
+      <guid>http://localhost:1313/speak/</guid>
+      <description>&lt;p&gt;Speak to us&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>previous</title>
+      <link>http://localhost:1313/previous/</link>
+      <pubDate>Tue, 01 Dec 2015 17:18:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/previous/</guid>
+      <description>&lt;p&gt;Previous talks&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dates</title>
+      <link>http://localhost:1313/dates/</link>
+      <pubDate>Tue, 01 Dec 2015 17:18:13 +0000</pubDate>
+      
+      <guid>http://localhost:1313/dates/</guid>
+      <description>&lt;p&gt;We meet on the first Tuesday of the month, every month.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/test/</link>
+      <pubDate>Tue, 01 Dec 2015 15:42:02 +0000</pubDate>
+      
+      <guid>http://localhost:1313/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About FLUG</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 04 Nov 2015 22:40:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;nitro:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Nitro&lt;/h1&gt;
+
+&lt;p&gt;Quick and easy performance analyzer library for &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;overview:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;Nitro is a quick and easy performance analyzer library for Go.
+It is useful for comparing A/B against different drafts of functions
+or different functions.&lt;/p&gt;
+
+&lt;h2 id=&#34;implementing-nitro:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Implementing Nitro&lt;/h2&gt;
+
+&lt;p&gt;Using Nitro is simple. First, use &lt;code&gt;go get&lt;/code&gt; to install the latest version
+of the library.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ go get github.com/spf13/nitro
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Next, include nitro in your application.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About FLUG</title>
+      <link>http://localhost:1313/posts/about/</link>
+      <pubDate>Wed, 04 Nov 2015 22:40:32 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/about/</guid>
+      <description>&lt;p&gt;The Falkirk Linux User Group was founded in&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

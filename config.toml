@@ -1,0 +1,14 @@
+baseurl = "http://falkirklug.org/"
+languageCode = "en-gb"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+canonifyurls = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  author = "Nikola Tesla"
