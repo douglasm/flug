@@ -1,8 +1,10 @@
 +++
 date = "2015-12-01T17:18:38Z"
 draft = false
-title = "speak"
+title = "Fancy giving a talk?"
 
 +++
 
-Speak to us
+# We need speakers
+
+If you have a talk you want to try out come along and give it a run with us.

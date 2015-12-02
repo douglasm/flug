@@ -1,11 +1,11 @@
-baseurl = "http://falkirklug.org/"
+BaseURL = "http://falkirklug.org/"
 languageCode = "en-gb"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
-builddrafts = false
+builddrafts = true
 canonifyurls = true
-
+Title = "Falkirk Linux Users Group"
 [taxonomies]
   category = "categories"
   tag = "tags"
