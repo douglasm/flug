@@ -1,4 +1,4 @@
-BaseURL = "http://falkirklug.org/"
+BaseURL = "http://web-falkirklug.rhcloud.com/"
 languageCode = "en-gb"
 contentdir = "content"
 layoutdir = "layouts"
