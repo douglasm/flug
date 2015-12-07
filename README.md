@@ -7,13 +7,29 @@ Hugo is a static site generator written in Go, which means the Hugo app has no d
 
 Once Hugo is installed navigate to the directory containing this repository and edit the relevant files. Most of the files are called <filename>.md and are in the content/ directory. They are formatted in Markdown. The only HTML page is index.html which is in the layouts/ directory.
 
-### To test your content
+### Local testing
 
-run hugo server --theme=flug
+`hugo server --theme=flug`
 
 This will start a server which you can access through [http://127.0.0.1:1313/](http://127.0.0.1:1313/).
 
 ### To build a deployable version
-run hugo 
 
-This will create the files for the static site in public/ the contents of it are deployed to the site.
+There is a `generated` branch of this repo which contains the current static site. Switch to this branch
+
+`git checkout generated`
+
+Rebase the latest changes (this should never conflict, since this branch only holds code in /public/)
+
+`git rebase master`
+
+Generate the site into /public/ and squash into the top commit
+
+```
+hugo --theme=flug
+git add -A
+git commit --amend -m "Generate static site"
+git push openshift HEAD:master -f
+```
+
+It's ok to squash the history here as the static site is always generated from the rest of the repo. This way the master branch stays clean.
